@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px) {
+    .findFlag input {
+      font-size: 20px;
+      margin-left: 5px;
+      width: 230px;
+    }
+    .findFlag button {
+      font-size: 20px;
+      margin-top: 5px;
+    }
+    .result {
+      margin-right: 10px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .wrapper {
+      flex-direction: column;
+    }
+    .result {
+      margin-top: 20px;
+      width: 250px;
+      height: 200px;
+    }
+    .result img {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  
